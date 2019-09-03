@@ -43,8 +43,7 @@
     context.drawImage(player, 0, 0);
     let image = canvas.toDataURL('image/png');
     console.log('%c+',
-      `content: 'TEST';
-      font-size: 0px;
+      `font-size: 0px;
       padding: calc((100vh - 91px) / 2) ${canvas.width / 2}px;
       background-image: url(${image});
       background-repeat: no-repeat;`
